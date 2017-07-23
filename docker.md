@@ -1,6 +1,6 @@
 # Docker Cheat Sheet
 
-**Build from docker file:**
+**Build from docker file**
 
 `docker build -t "simple_server:dockerfile" .`
 
