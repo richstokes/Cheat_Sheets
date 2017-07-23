@@ -40,7 +40,7 @@
 `
 
 **Run command on running container**
-`docker exec 0bfc64488ee54d6431d43429e69b89487750809224b9324142508d7347a5f54e ls /`
+`docker exec 0bfc64488ee54d6431d43429e69b89487750809224b9324142508d7347a5f54e ls /var/www/html`
 
 
 **Delete all images and containers**
