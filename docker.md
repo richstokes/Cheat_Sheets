@@ -51,4 +51,4 @@
 
 **Copy files from container to host**
 
-`docker cp 007713059ca4ca7524eb5e31f69b966cdbbf966d97555e67bedb42b6188ad31e:/var/www/html/sorted /root/sorted-copies/ `
+`docker cp 007713059ca4ca7524eb5e31f69b966cdbbf966d97555e67bedb42b6188ad31e:/var/www/html/foo /foo/bar/ `
