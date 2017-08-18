@@ -64,7 +64,7 @@ docker exec CONTAINER_ID ls /var/www/html
 ### Get a bash shell on running container
 
 ```bash
-docker exec -ti CONTAINER_ID /bin/bas
+docker exec -ti CONTAINER_ID /bin/bash
 ```
 
 ### Delete all images and containers
