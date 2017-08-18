@@ -58,7 +58,13 @@ docker events&
 ### Run command on running container
 
 ```bash
-docker exec 0bfc64488ee54d6431d43429e69b89487750809224b9324142508d7347a5f54e ls /var/www/html
+docker exec CONTAINER_ID ls /var/www/html
+```
+
+### Get a bash shell on running container
+
+```bash
+docker exec -ti CONTAINER_ID /bin/bas
 ```
 
 ### Delete all images and containers
@@ -70,5 +76,5 @@ docker rm $(docker ps -a -q) && docker rmi $(docker images -q)
 ### Copy files from container to host
 
 ```bash
-docker cp 007713059ca4ca7524eb5e31f69b966cdbbf966d97555e67bedb42b6188ad31e:/var/www/html/foo /foo/bar/
+docker cp CONTAINER_ID:/var/www/html/foo /foo/bar/
 ```
