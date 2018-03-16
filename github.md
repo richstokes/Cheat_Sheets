@@ -1,5 +1,5 @@
 ## Setup
-* Use oh-my-zsh with git plugin, this gives you inline status on your prompt and tab completion!
+Use oh-my-zsh with git plugin, this gives you inline status on your prompt and tab completion!
 
 ```
 git config --global user.email "rich.stokes@gmail.com"
