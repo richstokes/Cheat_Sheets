@@ -21,17 +21,7 @@ git config --global user.name "Rich Stokes"
 ## Commit your changes
 `git commit -m "Commit Message here"`
 
-## Push changes into original branch
-`git push origin new-branch-name` ??
-
-```
-git checkout master
-git merge new-branch-name
-git push
-```
-
-or
-
+## Merge changes into original branch
 ```
 git checkout master
 git pull origin master
