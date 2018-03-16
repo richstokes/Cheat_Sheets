@@ -30,6 +30,11 @@ git merge new-branch-name
 git push
 ```
 
+## Delete branch
+`git branch -d delete-this-branch`
+
+
+
 
 
 http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
