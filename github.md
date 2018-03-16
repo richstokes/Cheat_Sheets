@@ -30,6 +30,15 @@ git merge new-branch-name
 git push
 ```
 
+or
+
+```
+git checkout master
+git pull origin master
+git merge test
+git push origin master
+```
+
 ## Delete branch
 `git branch -d delete-this-branch`
 
