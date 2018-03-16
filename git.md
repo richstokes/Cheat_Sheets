@@ -12,7 +12,7 @@ git config --global user.name "Rich Stokes"
 ## Check Status
 `git status`
 
-## New Branch (for new work)
+## New Branch
 `git checkout -b new-branch-name`
 
 ## Add your amended files to the staging area
