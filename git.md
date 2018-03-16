@@ -31,9 +31,3 @@ git push origin master
 
 ## Delete branch
 `git branch -d delete-this-branch`
-
-
-
-
-
-http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
