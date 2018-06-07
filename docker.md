@@ -1,9 +1,9 @@
 # Docker Cheat Sheet
 
-### Build from dockerfile
+### Build from Dockerfile
 
 ```bash
-docker build -t "simple_server:dockerfile" .
+docker build .
 ```
 
 ### Start container
