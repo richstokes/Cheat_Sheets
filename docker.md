@@ -9,7 +9,7 @@ docker build .
 ### Start container
 
 ```bash
-docker run -p 5000:80 simple_server:dockerfile
+docker run -p 5000:80 imagename:latest
 ```
 _Proxies port 5000 on real system to 80 on container_
 
@@ -19,7 +19,7 @@ _Proxies port 5000 on real system to 80 on container_
 docker images
 ```
 
-### List all containers
+### List all running containers
 
 ```bash
 docker ps -a
